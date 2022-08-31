@@ -63,7 +63,7 @@ li {
   background-color: #3882f8;
   height: 25px;
   width: 100px;
-  border-radius: 10%;
+  border-radius: 5px;
   color: white;
   font-weight: bold;
   margin-top: 12px;
@@ -83,4 +83,117 @@ li {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding: 30px 95px;
+  padding-bottom: 80px;
+}
+
+.secondsectiontitle {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  padding-bottom: 25px;
+  display: flex;
+}
+
+.secondsectionimages {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 12px;
+}
+
+.imageimage {
+  height: 120px;
+  width: 120px;
+  border: 3px #3882f8 solid;
+  border-radius: 10px;
+  flex: auto;
+  margin-bottom: 10px;
+}
+
+.imagetext {
+  text-align: center;
+  width: 150px;
+  color: #1f2937;
+}
+
+.thirdsection {
+  background-color: #e5e7eb;
+  padding: 120px 170px;
+}
+
+.thirdsectionquote {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+}
+
+.thirdsectionperson {
+  text-align: right;
+  padding-right: 25px;
+  font-weight: bold;
+}
+
+.fourthsection {
+  display: flex;
+  padding: 70px 100px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.fourthsectionbox {
+  background-color: #3882f8;
+  padding: 40px 70px;
+  flex: 1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fourthsectionleft {
+  flex-shrink: 1;
+}
+
+.fourthlefttop {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.fourthsectionright {
+  flex-shrink: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-white {
+  background-color: #3882f8;
+  height: 25px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-top: 12px;
+  border: 2px solid white;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
